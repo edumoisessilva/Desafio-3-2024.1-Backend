@@ -1,17 +1,32 @@
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center-;
 }
 
 div.pageContent {
   margin-top: 5em;
   height: 100%;
   text-align: center;
+  background-color: red;
+  display: inline-block;
+  padding: 5em;
+  border-radius: 1em;
+  border: solid 0.3em black;
 }
 
 img.img_sprite_front_default {
   width: 96px;
   height: 96px;
   margin-block: 1em;
+  background-color: #ccc;
+  display: block;
+}
+.pokemon{
+  background-color: #ccc;
+  padding: 3em;
+  border-radius: 1em;
 }
 
 button#previous,
